@@ -39,7 +39,7 @@ def generateSkeleton():
     audioProcessed = audio[start:finish]
     audioProcessed.export('1_hindi.mp3',format='mp3') #save the mp3 file in the system
 
-    # 2. generate the segment 'from city'
+    # 2. generate the segment 'from city' --> mergeAudios() to be used
 
     # 3. generate the segment 'se chal kar'
     start = 91000 #check the milisecond from where to start trimming the audio track
@@ -47,7 +47,7 @@ def generateSkeleton():
     audioProcessed = audio[start:finish]
     audioProcessed.export('3_hindi.mp3',format='mp3') #save the mp3 file in the system
 
-    # 4. generate the segmnt 'via city'
+    # 4. generate the segmnt 'via city' --> mergeAudios() to be used
 
     # 5. generate the segment 'ke raaste'
     start = 94000 #check the milisecond from where to start trimming the audio track
@@ -55,7 +55,7 @@ def generateSkeleton():
     audioProcessed = audio[start:finish]
     audioProcessed.export('5_hindi.mp3',format='mp3') #save the mp3 file in the system
 
-    # 6. generate the segment 'to city'
+    # 6. generate the segment 'to city' --> mergeAudios() to be used
     
     # 7. generate the segment 'ko jaane wali gaadi sankhya'
     start = 96000 #check the milisecond from where to start trimming the audio track
@@ -63,7 +63,7 @@ def generateSkeleton():
     audioProcessed = audio[start:finish]
     audioProcessed.export('7_hindi.mp3',format='mp3') #save the mp3 file in the system
 
-    # 8. generate the segment 'train number and name'
+    # 8. generate the segment 'train number and name' --> mergeAudios() to be used
 
     # 9. generate the segment 'kuch hi samay mein platform sankhya'
     start = 105500 #check the milisecond from where to start trimming the audio track
@@ -71,7 +71,7 @@ def generateSkeleton():
     audioProcessed = audio[start:finish]
     audioProcessed.export('9_hindi.mp3',format='mp3') #save the mp3 file in the system
 
-    # 10. generate the segment platform number
+    # 10. generate the segment platform number --> mergeAudios() to be used
     
     # 11. generate the segment 'par aa rahi hai'
     start = 109000 #check the milisecond from where to start trimming the audio track
